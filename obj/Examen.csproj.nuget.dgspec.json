@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CA3\\Documents\\9A\\Examen\\Examen.csproj": {}
+    "C:\\Users\\CA3\\Desktop\\Ordinario-3\\Ordinario-3\\Examen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CA3\\Documents\\9A\\Examen\\Examen.csproj": {
+    "C:\\Users\\CA3\\Desktop\\Ordinario-3\\Ordinario-3\\Examen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CA3\\Documents\\9A\\Examen\\Examen.csproj",
+        "projectUniqueName": "C:\\Users\\CA3\\Desktop\\Ordinario-3\\Ordinario-3\\Examen.csproj",
         "projectName": "Examen",
-        "projectPath": "C:\\Users\\CA3\\Documents\\9A\\Examen\\Examen.csproj",
+        "projectPath": "C:\\Users\\CA3\\Desktop\\Ordinario-3\\Ordinario-3\\Examen.csproj",
         "packagesPath": "C:\\Users\\CA3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CA3\\Documents\\9A\\Examen\\obj\\",
+        "outputPath": "C:\\Users\\CA3\\Desktop\\Ordinario-3\\Ordinario-3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CA3\\AppData\\Roaming\\NuGet\\NuGet.Config"

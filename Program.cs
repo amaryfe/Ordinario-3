@@ -1,6 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+    
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("MySqlDatabase");
+builder.Services.AddDbContext<ApplicationDbContext> (options => {
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -17,6 +24,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(builder => 
+    builder.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod());
 
 app.UseAuthorization();
 
