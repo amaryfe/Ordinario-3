@@ -42,6 +42,7 @@ namespace Examen.Controllers
         {
             if (servicios == null)
             {
+                //hola
                 return HttpStatusCode.BadRequest;
             }
             _context.Add(servicios);
